@@ -14,17 +14,17 @@ Feature list:
  * ...and finally moves the concatenated/compressed/compiled files to the build folder
  * ...and serves an express server with livereload middleware so you don't need the plugin for your browser to enjoy your changes being reflected as soon as you save them!
 
-Thins I would like to add:
+Things I would like to add:
 
  * Auto deletion of the build folder as an optional toggle.
  * ...and any suggestions from adopters of the workflow
  * ...and I am sure there is still more I'd like to add
 
- ## Instructions
+## Instructions
 
-  * Clone this repo (see the right hand side of this page)
-  * Browse to your local copy
-  * Open a terminal (Start -> Run -> 'cmd')
-  * Type 'gulp build'. This will set out the initial structure of the workflow
-  * Once this is complete, just run 'gulp' whenever you are developing inside the workflow
-  * ...and you're all set. From here any of your development work goes inside the src folder and all the magic will happen on save
+ * Clone this repo (see the right hand side of this page)
+ * Browse to your local copy
+ * Open a terminal (Start -> Run -> 'cmd')
+ * Type 'gulp build'. This will set out the initial structure of the workflow
+ * Once this is complete, just run 'gulp' whenever you are developing inside the workflow
+ * ...and you're all set. From here any of your development work goes inside the src folder and all the magic will happen on save
