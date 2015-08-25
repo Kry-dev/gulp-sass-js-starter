@@ -20,6 +20,10 @@ Things I would like to add:
  * ...and any suggestions from adopters of the workflow.
  * ...and I am sure there is still more I'd like to add.
 
+## Prequisites
+ * Git CLI (get it here: https://git-scm.com/).
+ * Node (npm).
+
 ## Instructions
 
  * Clone this repo (see the right hand side of this page).
