@@ -1,13 +1,13 @@
 //AleskiGulp Build System
-var gulp 				= require('gulp');
-var	uglify 			= require('gulp-uglify');
-var concat 			= require('gulp-concat');
-var	sass 				= require('gulp-sass');
-var concatCss 	= require('gulp-concat-css');
-var	jshint 			= require('gulp-jshint');
-var	jsreporter 	= require('jshint-stylish');
-var	express 		= require('express');
-var tinylr 			= require('tiny-lr')();
+var gulp = require('gulp');
+var	uglify = require('gulp-uglify');
+var concat = require('gulp-concat');
+var	sass = require('gulp-sass');
+var concatCss = require('gulp-concat-css');
+var	jshint = require('gulp-jshint');
+var	jsreporter = require('jshint-stylish');
+var	express	= require('express');
+var tinylr = require('tiny-lr')();
 
 function notifyLiveReload(event) {
 	var fileName = require('path').relative(__dirname, event.path);
@@ -60,8 +60,11 @@ gulp.task('livereload', function() {
 	tinylr.listen(35729);
 });
 
+//Build task to create build (ran once)
+gulp.task('build', ['move-index', 'compress', 'sass', 'lint'], function() {});
+
 //Watchers
-gulp.task('watch', function() {
+gulp.task('watch', ['build'], function() {
 	//Watch for a sass change to recompile
 	gulp.watch('./src/**/*.sass', ['sass']);
 
