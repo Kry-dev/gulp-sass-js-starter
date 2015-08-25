@@ -8,23 +8,22 @@ The goal was to create this in a way that anyone from novice web developers to i
 
 Feature list:
 
- * Concatenates and compresses JS files
- * Concatenates and compiles SASS files
- * Follows a flexble folder structure where anything goes so long as it is placed in the src folder
- * ...and finally moves the concatenated/compressed/compiled files to the build folder
+ * Concatenates and compresses JS files.
+ * Concatenates and compiles SASS files.
+ * Follows a flexble folder structure where anything goes so long as it is placed in the src folder.
+ * ...and finally moves the concatenated/compressed/compiled files to the build folder.
  * ...and serves an express server with livereload middleware so you don't need the plugin for your browser to enjoy your changes being reflected as soon as you save them!
 
 Things I would like to add:
 
  * Auto deletion of the build folder as an optional toggle.
- * ...and any suggestions from adopters of the workflow
- * ...and I am sure there is still more I'd like to add
+ * ...and any suggestions from adopters of the workflow.
+ * ...and I am sure there is still more I'd like to add.
 
 ## Instructions
 
- * Clone this repo (see the right hand side of this page)
- * Browse to your local copy
- * Open a terminal (Start -> Run -> 'cmd')
- * Type 'gulp build'. This will set out the initial structure of the workflow
- * Once this is complete, just run 'gulp' whenever you are developing inside the workflow
- * ...and you're all set. From here any of your development work goes inside the src folder and all the magic will happen on save
+ * Clone this repo (see the right hand side of this page).
+ * Browse to your local copy.
+ * Open a terminal (Start -> Run -> 'cmd').
+ * Type 'gulp' and watch the magic happen!
+ * ...and you're all set. From here any of your development work goes inside the src folder and all the magic will happen on save.
